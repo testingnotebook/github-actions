@@ -1,0 +1,12 @@
+{
+  "testMatch": ["/**/test/*.spec.js"],
+  "reporters": [
+    "default",
+    [
+      "./node_modules/jest-html-reporter",
+      {
+        "pageTitle": "Unit Test Report"
+      }
+    ]
+  ]
+}

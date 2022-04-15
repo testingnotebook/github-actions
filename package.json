@@ -1,0 +1,25 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testingnotebook/github-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testingnotebook/github-actions/issues"
+  },
+  "homepage": "https://github.com/testingnotebook/github-actions#readme",
+  "dependencies": {
+    "cypress": "^9.5.4",
+    "jest": "^27.5.1",
+    "jest-html-reporter": "^3.4.2"
+  }
+}
